@@ -1,0 +1,2 @@
+# Design Decisions
+When developing the OSSM, certain decisions were made about the design. Certain decisions were made very deliberately and others out of convenience or cost savings. Major decisions will be documented here. If you have been referred here because you asked about building the OSSM using different parts, please take this opportunity to understand the constraints and decisions that have been made during the history of the project.

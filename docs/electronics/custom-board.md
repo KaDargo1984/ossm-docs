@@ -1,0 +1,1 @@
+# TODO add information about building a custom board, implementing OSSM with modules

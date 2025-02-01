@@ -1,0 +1,8 @@
+# Early homing (sensor)
+The first OSSM's used microswitches mounted to their body. A single microswitch on one side of the body allowed the firmware to identify one end of the rail, then a hardcoded `rail length` in the firmware defined how long the rail was. This was not ideal as different length rails required changes to the code. A second microswitch was added to certain OSSMs in order to identify both ends of the rail. However, ensuring that the hardware on the ends of the rails made positive contact with the microswitch and that the firmware reacted fast enough to prevent damage to the switches was not reliable. As of today, support for microswitch homing has been removed from the [mainline software](../software/index.md).
+
+
+# Sensorless Homing 
+In order to reduce complexity and increase reliability, sensorless homing was introduced. By routing motor power through the [OSSM Control board](PCB.md) the MCU is able to detect the sharp rise in motor current when the system stalls against one end of the rail or the other. This allows for dynamic rail length and removes the complexity of the wiring and mounting of microswitches for homing. It also reduces the mechanical design constraints of microswitch mounting.
+
+Adding the current measurement capability to the [OSSM Control board](PCB.md) does increase the BOM size, complexity and reduces the ability for someone to DIY the OSSM control system. However, the benefits of sensorless homing have far outweighed these minor downsides.
