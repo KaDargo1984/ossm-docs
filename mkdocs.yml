@@ -1,0 +1,46 @@
+site_name: Unofficial OSSM Documentation
+
+nav: 
+  - Home: index.md
+  - R+D Reference Boards:
+    - Index: boards/index.md
+    - V1.0: boards/v1.0.md
+    - V2.0: boards/v2.0.md
+  - Mounting:
+    - Index: mounting/index.md
+  - OSSM Electronics:
+    - Index: electronics/index.md
+    - Reference board: electronics/refboard.md
+    - Custom Boards: electronics/custom-board.md
+  - Software, Mainline: 
+    - Index: software/index.md
+  - Software, Branches: 
+    - Index: software/branches.md
+  - Motors: 
+    - Index: motors/index.md
+    - IHSV57: motors/ihsv57.md
+    - 57AIM30 (Gold Motor): motors/57AIM30.md
+  - Design Decisions:
+    - Index: design/index.md
+    - MCU: design/mcu.md
+    - Motor: design/motor.md
+    - Servo VS Stepper: design/servos.md
+    - Voltage: design/voltage.md
+    - Sensorless Homing: design/homing.md
+    - Custom PCB: design/PCB.md
+
+theme:
+  name: terminal
+  palette: gruvbox_dark
+  features:
+    - navigation.side.indexes
+    - navigation.top.hide
+
+markdown_extensions:
+  - pymdownx.superfences
+  - pymdownx.highlight:
+      use_pygments: true
+      pygments_style: github-dark
+      noclasses: true
+  - pymdownx.inlinehilite
+  - attr_list
