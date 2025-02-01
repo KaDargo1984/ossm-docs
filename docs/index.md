@@ -20,16 +20,16 @@ It is one of a kind Certified, Actual, Factual, Open Source as certified by the 
 
 ## Getting Started
 
-### [Read the Frequently Asked Questions](FAQ.md)
+### [Read the Frequently Asked Questions](faq.md)
 
-### [Build Instructions](hardware_assembly.md)
+### [Build Instructions](assembly/hardware_assembly.md)
 
 ### [Build Videos]("https://youtube.com/playlist?list=PLzSK7OAu3KNQsFo6WJGT8P28lfkD3xpps")
 
 [Join our Discord](https://discord.gg/MmpT9xE) to be part of the discussion and get help with your build. We have a huge community of makers!
 ### Software
 
-The software is available in the [github repository](https://github.com/KinkyMakers/OSSM-hardware/). It is written and compiled utilizing PlatformIO on Visual Studio Code. [Reference for working with the code in PlatformIO here](OSSM PlatformIO Readme.md)
+The software is available in the [github repository](https://github.com/KinkyMakers/OSSM-hardware/). It is written and compiled utilizing PlatformIO on Visual Studio Code. [Reference for working with the code in PlatformIO here](software/PlatformIO.md)
 
 We recommend using the [Research and Desire Reference Board](https://shop.researchanddesire.com/products/ossm-reference-board) as Do It Yourself by someone without extensive electronics knowledge creates a lot of support overhead. This code is still
 arduino IDE compatible but offers many times better performance. Web based control is projected to be available in Feb 2025.  

@@ -7,7 +7,7 @@ Reference the above for information on choosing, printing and purchasing 3d prin
 
 2.  **IHSV57 NEMA23 Servo with 8mm shaft** _or_ **57AIM30 (Gold Motor)**:
     - **Gold Motor**
-      - New standard motor for OSSM, please see [Gold Motor Info](Documentation/Gold-Motor.md) while docs are being updated.
+      - New standard motor for OSSM, please see [Gold Motor Info](../motors/57AIM30.md) while docs are being updated.
         This motor is cheaper, more compact and has improved features which are being implemented in OSSM firmware.
       - For the latest information about this change, join the KinkyMakers Discord.
     - **iHSV57 (Previous Standard Motor)**
@@ -33,7 +33,7 @@ Reference the above for information on choosing, printing and purchasing 3d prin
 
 
       - For details on picking the right motor for your use case - check
-          this [FAQ](FAQ.md#q--what-strength-of--motor-do-i-need)
+          this [FAQ](../faq.md)
       - If you are using the 140W or 180W version it is recommended to use a 10mm wide belt and pulley (see the next two items)
 
 
