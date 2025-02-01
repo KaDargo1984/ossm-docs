@@ -2,6 +2,13 @@ site_name: Unofficial OSSM Documentation
 
 nav: 
   - Home: index.md
+  - FAQ: faq.md
+  - Bill of materials:
+    - Index: assembly/bom.md
+  - Assembly instructions:
+    - Index: assembly/index.md
+  - Mounting:
+    - Index: mounting/index.md
   - R+D Reference Boards:
     - Index: boards/index.md
     - V1.0: boards/v1.0.md
@@ -10,8 +17,6 @@ nav:
     - V2.2: boards/v2.2.md
     - V2.3: boards/v2.3.md
     - V3.0: boards/v3.0.md
-  - Mounting:
-    - Index: mounting/index.md
   - OSSM Electronics:
     - Index: electronics/index.md
     - Custom Boards: electronics/custom-board.md
@@ -49,3 +54,5 @@ markdown_extensions:
       noclasses: true
   - pymdownx.inlinehilite
   - attr_list
+
+repo_url: https://github.com/KaDargo1984/ossm-docs

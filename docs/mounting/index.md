@@ -1,1 +1,2 @@
-# TODO add mounting info
+# Mainline R+D Stand
+The mainline R+D stand is made from aluminum extrusion, 3D printed parts and minimal extra hardware. It can be seen [here]([OnShape link](https://cad.onshape.com/documents/d520ea9a8cadb4ae8681f59b/w/00b211a6fa3b76c59ef28f4e/e/5f2c80d9d9c2433a7be7f789))
