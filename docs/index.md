@@ -22,7 +22,7 @@ It is one of a kind Certified, Actual, Factual, Open Source as certified by the 
 
 ### [Read the Frequently Asked Questions](FAQ.md)
 
-### [Build Instructions](assembly/index.md)
+### [Build Instructions](hardware_assembly.md)
 
 ### [Build Videos]("https://youtube.com/playlist?list=PLzSK7OAu3KNQsFo6WJGT8P28lfkD3xpps")
 

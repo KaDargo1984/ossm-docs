@@ -1,14 +1,9 @@
 ## Bill Of Materials
 
-We are calling this the reference build, when deviating from it please check compatability with existing Bill Of Materials (BOM)
+We are calling this the reference build, when deviating from it please check compatibility with existing Bill Of Materials (BOM)
 
-1.  **[3D Printed Parts](Hardware/OSSM%20Printed%20Parts)**
-    - This has recently had significant changes
-    - [Make sure to choose one of the options for the toy adapters](Hardware/OSSM%20Printed%20Parts/end%20effector%20options)
-    - There are several mounting options available, the most popular being  
-      the [Ulanzi Ball head mount](Hardware/OSSM%20Mounting) or  
-      the [Shicks mount](Hardware/OSSM%20Mounting/Shicks%204040%20mount)
-    - Thank you @Elims for the [belt tensioner design]( https://github.com/theelims )
+1.  **[3D Printed Parts](3dprintedparts.md)**
+Reference the above for information on choosing, printing and purchasing 3d printed parts
 
 2.  **IHSV57 NEMA23 Servo with 8mm shaft** _or_ **57AIM30 (Gold Motor)**:
     - **Gold Motor**
