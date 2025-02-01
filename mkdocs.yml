@@ -5,8 +5,11 @@ nav:
   - FAQ: faq.md
   - Bill of materials:
     - Index: assembly/bom.md
+    - 3D Printed Parts: assembly/3dprintedparts.md
   - Assembly instructions:
     - Index: assembly/index.md
+    - Hardware: assembly/hardware_assembly.md
+    - Electronics: assembly/electronics.md
   - Mounting:
     - Index: mounting/index.md
   - R+D Reference Boards:
@@ -20,8 +23,10 @@ nav:
   - OSSM Electronics:
     - Index: electronics/index.md
     - Custom Boards: electronics/custom-board.md
+    - M5 Remote: electronics/m5.md
   - Software, Mainline: 
     - Index: software/index.md
+    - PlatformIO: software/PlatformIO.md
   - Software, Branches: 
     - Index: software/branches.md
   - Motors: 
