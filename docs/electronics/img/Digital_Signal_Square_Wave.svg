@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+  xmlns:svg="http://www.w3.org/2000/svg"
+  xmlns="http://www.w3.org/2000/svg"
+  width="460"
+  height="490"
+  id="svg"
+  version="1.1"
+>
+  <rect
+    x="0"
+    y="0"
+    width="460"
+    height="490"
+    style="fill: #ffffff; stroke: none"
+  />
+  <rect
+    x="0"
+    y="0"
+    width="460"
+    height="190"
+    style="fill: #dddddd; stroke: none"
+  />
+  <rect
+    x="0"
+    y="60"
+    width="460"
+    height="70"
+    style="fill: #ff7777; stroke: none"
+  />
+  <rect
+    x="80"
+    y="00"
+    width="20"
+    height="190"
+    style="fill: #7777ff; stroke: none"
+  />
+  <rect
+    x="160"
+    y="00"
+    width="20"
+    height="190"
+    style="fill: #7777ff; stroke: none"
+  />
+  <rect
+    x="240"
+    y="00"
+    width="20"
+    height="190"
+    style="fill: #7777ff; stroke: none"
+  />
+  <rect
+    x="320"
+    y="00"
+    width="20"
+    height="190"
+    style="fill: #7777ff; stroke: none"
+  />
+
+  <g
+    id="analog"
+    transform="translate(0,20)"
+    style="
+      fill: none;
+      stroke: #000000;
+      stroke-width: 4pt;
+      stroke-linecap: round;
+      stroke-linejoin: miter;
+      stroke-opacity: 1;
+    "
+  >
+    <path
+      id="signal"
+      d="M 20 150 
+		  h 60
+		  l 20 -150
+		  h 60
+		  l 20 150
+		  h 60
+		  l 20 -150
+		  h 60
+		  l 20 150
+		  h 60	  
+		  "
+    />
+
+    <path
+      id="connect1"
+      style="
+        fill: none;
+        stroke: #000000;
+        stroke-width: 0.5pt;
+        stroke-linecap: round;
+        stroke-linejoin: miter;
+        stroke-opacity: 1;
+      "
+      d="M 20 150 
+		  v 100 m 0 -100
+		  m 60 0
+		  v 100 m 0 -100
+		  m 20 0
+		  m 0 -150 
+		  v 250 m 0 -250
+		  m 60 0
+		  v 250 m 0 -250
+		  m 20 0
+		  m 0 150 
+		  v 100 m 0 -100
+		  m 60 0
+		  v 100 m 0 -100
+		  m 20 0
+		  m 0 -150 
+		  v 250 m 0 -250
+		  m 60 0
+		  v 250 m 0 -250
+		  m 20 0
+		  m 0 150 
+		  v 100 m 0 -100
+		  m 60 0
+		  v 100 m 0 -100
+		  "
+    />
+  </g>
+  <g
+    id="timing"
+    transform="translate(0,270)"
+    style="
+      fill: none;
+      stroke: #000000;
+      stroke-width: 4pt;
+      stroke-linecap: round;
+      stroke-linejoin: miter;
+      stroke-opacity: 1;
+    "
+  >
+	<path
+      id="time"
+      d="M 24 10 
+		  h 52 m 8 0
+		  h 12 m 8 0
+		  h 52 m 8 0
+		  h 12 m 8 0
+		  h 52 m 8 0
+		  h 12 m 8 0
+		  h 52 m 8 0
+		  h 12 m 8 0
+		  h 52 
+		  "
+    />
+
+    <path
+      id="connect2"
+      style="
+        fill: none;
+        stroke: #000000;
+        stroke-width: 0.5pt;
+        stroke-linecap: round;
+        stroke-linejoin: miter;
+        stroke-opacity: 1;
+      "
+      d="M 20 20 
+		  m 60 0
+		  l 20 70 m 0 -70
+		  v 70 m 0 -70
+		  m 60 0
+		  l 20 70 m 0 -70
+		  v 70 m 0 -70
+		  m 60 0
+		  l 20 70 m 0 -70
+		  v 70 m 0 -70
+		  m 60 0
+		  l 20 70 m 0 -70
+		  v 70 m 0 -70
+		  "
+    />
+  </g>
+
+  <g
+    id="digital"
+    transform="translate(0,350)"
+    style="
+      fill: none;
+      stroke-width: 4pt;
+      stroke-linecap: round;
+      stroke-linejoin: miter;
+      stroke-opacity: 1;
+    "
+  >
+    <path id="digital_high" style="stroke: #dddddd" d="M 0 0 h 480" />
+    <path id="digital_low" style="stroke: #dddddd" d="M 0 100 h 480" />
+    <path
+      id="digital_signal"
+      style="stroke: #000000"
+      d="M 20 100 h 80 v -100 h 80 v 100 h 80 v -100 h 80 v 100 h 60 "
+    />
+  </g>
+
+  <g
+    id="Text"
+    transform="translate(0,0)"
+    font-family="DejaVu Sans,sans-serif"
+    font-stretch="condensed"
+    font-weight="normal"
+    font-size="16px"
+  >
+    <g transform="translate(420,30)" text-anchor="middle">
+      <text y="0" id="textH1">high</text>
+      <text y="70" id="textUndef">undefined</text>
+      <text y="140" id="textL1">low</text>
+    </g>
+
+    <g transform="translate(0,270)" text-anchor="middle">
+      <text x="50" id="textT1">t1</text>
+      <text x="90" id="textT2">t2</text>
+      <text x="130" id="textT3">t3</text>
+      <text x="170" id="textT4">t4</text>
+      <text x="210" id="textT5">t5</text>
+      <text x="250" id="textT6">t6</text>
+      <text x="290" id="textT7">t7</text>
+      <text x="330" id="textT8">t8</text>
+      <text x="370" id="textT9">t9</text>
+    </g>
+
+    <g transform="translate(420,340)" text-anchor="middle">
+      <text y="0" id="textH2">high</text>
+      <text y="100" id="textL2">low</text>
+    </g>
+  </g>
+</svg>
