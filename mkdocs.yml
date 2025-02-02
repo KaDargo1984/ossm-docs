@@ -40,6 +40,7 @@ nav:
     - Voltage: design/voltage.md
     - Sensorless Homing: design/homing.md
     - Custom PCB: design/PCB.md
+    - Level Shifters: design/level-shifters.md
   - Safety:
     - OSSM Hazard analysis: hazards.md
     - OSSM Safety considerations: safety.md
