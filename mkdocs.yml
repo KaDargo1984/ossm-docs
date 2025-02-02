@@ -24,6 +24,7 @@ nav:
     - Index: electronics/index.md
     - Custom Boards: electronics/custom-board.md
     - M5 Remote: electronics/m5.md
+    - USB-PD: electronics/usb-pd.md
   - Software, Mainline: 
     - Index: software/index.md
     - PlatformIO: software/PlatformIO.md
