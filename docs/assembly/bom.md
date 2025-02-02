@@ -47,7 +47,7 @@ Reference the above for information on choosing, printing and purchasing 3d prin
 
 4.  **GT2 Timing Belt - 10mm width** :
 
-    [Amazon - CA](www.amazon.ca/Timing-Meters-Creality-Anycubic-Printer/dp/B097T4DFM6)
+    [Amazon - CA](https://www.amazon.ca/Timing-Meters-Creality-Anycubic-Printer/dp/B097T4DFM6)
 
     [Amazon - US](https://www.amazon.com/Timing-Meters-Creality-Anycubic-Printer/dp/B097T4DFM6)
 
