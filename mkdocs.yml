@@ -6,8 +6,10 @@ nav:
   - Bill of materials:
     - Index: assembly/bom.md
     - 3D Printed Parts: assembly/3dprintedparts.md
+    - End Effectors: end-effectors/index.md
   - Assembly instructions:
     - Index: assembly/index.md
+    - Planning: assembly/planning.md
     - Hardware: assembly/hardware_assembly.md
     - Electronics: assembly/electronics.md
   - Mounting:

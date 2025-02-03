@@ -21,7 +21,13 @@ A: TODO Add the BOM
 A: If you're confused, the recommended 57AIM30 is probably the right choice for you. Check out the [motors](motors/index.md) for detailed information about the motor choices. 
 ### Q:  I am a size queen and I don't think the IHSV57 or 57AIM30 will be sufficient for my use, what is the upgrade path?
 
-A: You're not alone! There is work being done on larger, more powerful hardware implementations. Check out the discord for more information.
+A: Extensive design and testing has occurred on the OSSM motion core.  We believe it will work for most people and our experience has been that motion core is not the weak point.  Often it is builder error (incorrect material choice, poorly assembled or printed parts) or the stand not allowing power delivery to where it counts rather than a lack of power. 
+
+Consequently, if you want talk bigger motors, take the OSSM challenge and build a reference build OSSM first.  If you are not satisfied, then come back with some data around what/how it fails then we can talk. 
+
+More power/torque is not better.  There comes a certain point when more power becomes dangerous and needs to be balanced with load.  A human body will always lose in messy and painful ways against a more powerful motor.
+
+All that being said, you're not alone and there are folks working on versions of the OSSM that are much more powerful. Check the Discord for details.
 ### Q: Hold on, why does anal play need more powerful motors?
 
 A: Butts have big powerful muscles! It's common for people to bear down, or clench when things are feeling really good. Also it can be pretty fun shoving big objects in there! It can take a big motor to handle a big toy in a powerful butt.
