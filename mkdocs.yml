@@ -42,6 +42,7 @@ nav:
     - Sensorless Homing: design/homing.md
     - Custom PCB: design/PCB.md
     - Level Shifters: design/level-shifters.md
+    - Belt: design/why-belts.md
   - Safety:
     - OSSM Hazard analysis: hazards.md
     - OSSM Safety considerations: safety.md
